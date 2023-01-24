@@ -8,6 +8,7 @@ html{
 }
 
 .arrow i{
+    color: #c673bf;
     display: block;
     line-height: 50px;
 }
@@ -114,6 +115,14 @@ html{
 }
 
 .banner-btn a:hover{
+    border: none;
+    background-color: #c673bf;
+    opacity: 0.6;
+}
+
+.banner-btn a.btn-primary:active{
+    border: none;
+    background-color: #c673bf;
     opacity: 0.6;
 }
 
@@ -270,7 +279,7 @@ html{
 }
 
 .contact img{
-    width: 80vh;
+    width: 70vh;
     margin: auto;
     display: block;
 }
@@ -332,6 +341,14 @@ footer{
     border-color: none;
 }
 
+.wrap-image-square{
+    position:relative;
+    overflow:hidden;
+    padding-bottom:100%;
+}
+.wrap-image-square img{
+    position:absolute;
+}
 
 
 
